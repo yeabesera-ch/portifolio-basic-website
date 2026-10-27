@@ -1,0 +1,113 @@
+
+body{
+
+    background-color: rgb(254, 236, 215);
+}
+p {
+   font-size: large;
+}
+
+h1{
+    text-align: center;
+    font-size: xx-large;
+    
+}
+h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+    
+}
+
+
+.nav-link ul {
+    list-style: none;
+    display: flex;
+    gap: 70px;
+    align-items: center;  
+}
+.nav{
+    background-color: black; 
+    padding: 5px;
+}
+.nav-link a{
+    color: white;
+}
+
+
+.name, .email, .tel, .cbx,.question, .confirm-email, .submit{
+    display: flex;
+    align-items: center;
+}
+#form {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.p{
+    font-size: xx-small;
+    font-weight: lighter;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+.label{
+    font-size: xx-large;
+    align-items: center;
+}
+h3{    
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+
+
+
+.find-footer a, .index-footer a, .footer-email a {
+    margin: 15px;
+   
+}   
+.find-footer li { 
+    margin: 0px 0px 0px 10px;
+    list-style: none; 
+    display: flex;
+    flex-direction: grid;
+    grid-auto-columns: auto; 
+}
+.index-footer li {
+    margin: 0px;
+    list-style: none; 
+    display: flex;
+    flex-direction: grid;
+    grid-auto-columns: auto; 
+}
+
+.footer-email li{
+    margin: 0px 0px 0px 44px;
+    list-style: none; 
+    display: flex;
+    flex-direction: grid;
+    grid-auto-columns: auto; 
+}
+
+
+.find-footer h3, .index-footer h3, .footer-email h3{
+    margin: 30px 45px 15px;
+    display: flex;
+    flex-direction: grid;
+    grid-auto-rows: auto; 
+    
+}
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: grid;
+    grid-auto-flow: auto; 
+}
+.footer a {
+    color:white;
+}
+
+

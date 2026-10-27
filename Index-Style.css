@@ -1,0 +1,198 @@
+.grid {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;  
+    padding: 40px,70px;  
+    margin: auto;
+}
+
+body{
+
+    background-color:rgb(254, 236, 215);
+}
+p {
+   font-size: large;
+}
+
+h1{
+    text-align: center;
+    font-size: xx-large;
+    
+}
+h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+    
+}
+
+.nav-link ul {
+    list-style: none;
+    display: flex;
+    gap: 70px;
+    align-items: center;  
+}
+
+.nav{
+    background-color: black; 
+    padding: 5px;
+}
+.nav-link a{
+    color: white;
+}
+
+
+#JP{
+    text-align: center;
+    font-size: medium;
+    padding: 70px;
+}
+#JLR{
+    text-align: center;
+    font-size: medium;
+    padding: 70px;
+}
+#Cineworld{
+    text-align: center;
+    font-size: medium;
+    padding: 70px;
+}
+
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 70px;
+}
+.progress-container {
+    width: 200px;           
+    background-color: #84848490;  
+    border-radius: 25px;   
+    
+}
+.progress-bar {
+    height: 30px;            
+    background-color: #4CAF50; 
+    text-align: center;      
+    line-height: 30px;       
+    color: white;   
+    border-radius: 25px;         
+}
+
+
+#coding{
+    text-align: center;
+    font-size: medium;
+    padding: 70px 70px 1px;
+}
+#art{
+    text-align: center;
+    font-size: medium;
+    padding: 70px;
+}
+#gym{
+    text-align: center;
+    font-size: medium;
+    padding: 70x;
+}
+
+
+.find-footer a, .index-footer a, .footer-email a {
+    margin: 15px;
+   
+}   
+.find-footer li { 
+    margin: 0px 0px 0px 10px;
+    list-style: none; 
+    display: flex;
+    flex-direction: grid;
+    grid-auto-columns: auto; 
+}
+.index-footer li {
+    margin: 0px;
+    list-style: none; 
+    display: flex;
+    flex-direction: grid;
+    grid-auto-columns: auto; 
+}
+
+.footer-email li{
+    margin: 0px 0px 0px 44px;
+    list-style: none; 
+    display: flex;
+    flex-direction: grid;
+    grid-auto-columns: auto; 
+}
+
+
+.find-footer h3, .index-footer h3, .footer-email h3{
+    margin: 30px 45px 15px;
+    display: flex;
+    flex-direction: grid;
+    grid-auto-rows: auto; 
+    
+}
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: grid;
+    grid-auto-flow: auto; 
+}
+.footer a {
+    color:white;
+}
+.find-footer a, .index-footer a, .footer-email a {
+    margin: 15px;
+   
+}   
+.find-footer li { 
+    margin: 0px 0px 0px 10px;
+    list-style: none; 
+    display: flex;
+    flex-direction: grid;
+    grid-auto-columns: auto; 
+}
+.index-footer li {
+    margin: 0px;
+    list-style: none; 
+    display: flex;
+    flex-direction: grid;
+    grid-auto-columns: auto; 
+}
+
+.footer-email li{
+    margin: 0px 0px 0px 44px;
+    list-style: none; 
+    display: flex;
+    flex-direction: grid;
+    grid-auto-columns: auto; 
+}
+
+
+.find-footer h3, .index-footer h3, .footer-email h3{
+    margin: 30px 45px 15px;
+    display: flex;
+    flex-direction: grid;
+    grid-auto-rows: auto; 
+    
+}
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: grid;
+    grid-auto-flow: auto; 
+}
+.footer a {
+    color:white;
+}
